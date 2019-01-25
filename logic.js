@@ -41,7 +41,7 @@ function showGif(){
 }
 
 function buildUrl (){
-    queryURL = "http://api.giphy.com/v1/gifs/search?";
+    queryURL = "https://api.giphy.com/v1/gifs/search?";
     queryParams = { "api_key": "XPQi9J9GS4amlcMrGrqGWwrKFaC447j9" };
     queryParams.q = queryString;
     queryParams.limit = 5;
